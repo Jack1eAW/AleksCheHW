@@ -1,6 +1,5 @@
 //
 //  HomeViewController.swift
-//  AleksCheHW
 //
 //  Created by Aleksandr Chebotarev on 12/22/22.
 //
@@ -9,9 +8,8 @@ import Foundation
 import UIKit
 import SnapKit
 
-class HomeViewController: UIViewController {
-    
-    override func viewDidLoad() {
+public class HomeViewController: UIViewController {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         let label = UILabel()
         label.font = .systemFont(ofSize: 48, weight: .thin)
